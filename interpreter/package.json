@@ -5,11 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "bin": {
-    "gsl": "dist/bin.js"
-  },
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts --minify && tsup bin.ts --minify",
+    "run": "ts-node test.ts",
+    "build": "tsup index.ts --format cjs,esm --dts --minify",
     "lint": "tsc"
   },
   "repository": {
