@@ -9,9 +9,9 @@ const TOKEN_LOOP_START = '5';
 const TOKEN_LOOP_END = '6';
 const TOKEN_OUTPUT = '7';
 
-// 1, 2 is ✋
-// 3, 4 is 🤟
-// 5, 6 is 👈
+// 1, 2 is ✋ ✋-left
+// 3, 4 is 🤟 🤟-left
+// 5, 6 is 👈 👈-left
 // 7 is 👌
 
 // Hello World!
