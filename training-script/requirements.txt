@@ -1,2 +1,3 @@
 opencv-python
-labelImg
+pyqt5
+lxml
