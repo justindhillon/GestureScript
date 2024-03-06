@@ -1,4 +1,4 @@
-# GSL - GestureScript Language
+# GestureScript Language (GSL)
 The World's First Programming Sign Language
 
 ## Introduction
