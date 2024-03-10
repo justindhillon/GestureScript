@@ -1,3 +1,6 @@
 opencv-python
 pyqt5
 lxml
+tensorflow
+object_detection
+google

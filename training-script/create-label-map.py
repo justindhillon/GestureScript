@@ -1,3 +1,5 @@
+import subprocess
+
 labels = [
     {'name': '✋',      'id': 1},
     {'name': '✋-left', 'id': 2},
@@ -17,5 +19,5 @@ with open('annotations/label_map.rbtxt', 'w') as file:
         file.write('}\n')
 
 # Create TF records
-!python {'generate_tfrecord.py'} -x {'training-script/training-images/training'} -l {'annotations/label_map.rbtxt'} -o {'annotations/train.record'}
-!python {'generate_tfrecord.py'} -x {'training-script/training-images/testing'}  -l {'annotations/label_map.rbtxt'} -o {'annotations/test.record'}
+subprocess.run("python generate_tfrecord.py -x training-images/training -l annotations/label_map.pbtxt -o annotations/train.record", shell=True)
+subprocess.run("python generate_tfrecord.py -x training-images/testing  -l annotations/label_map.pbtxt -o annotations/test.record",  shell=True)
