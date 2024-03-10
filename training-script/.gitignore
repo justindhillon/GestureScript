@@ -1,1 +1,2 @@
-training-images
+training-images/collected-images/*.jpg
+training-images/collected-images/*.xml

@@ -12,7 +12,7 @@ Run this script to use your webcam to capture training images.
 ```bash
 python get-images.py
 ```
-The files are in ```training-images```
+The files are in ```training-images/collected-images```
 
 ## Seting Up labelImg
 
@@ -31,7 +31,7 @@ python3 labelImg.py
 ```
 
 ## Using labelImg
-1. ```Open Dir``` training-images
-2. ```Change Save Dir``` training-images
+1. ```Open Dir``` training-images/collected-images
+2. ```Change Save Dir``` training-images/collected-images
 3. Set ```Auto Save Mode``` in ```view```
 4. Use ```Create RectBox``` on all the training-images
