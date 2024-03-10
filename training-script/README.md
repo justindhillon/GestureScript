@@ -10,7 +10,7 @@ pip3 install pyqt5 lxml
 ## Getting Images
 Run this script to use your webcam to capture training images.
 ```bash
-python main.py
+python get-images.py
 ```
 The files are in ```training-images```
 

@@ -10,8 +10,8 @@ const TOKEN_LOOP_END = '6';
 const TOKEN_OUTPUT = '7';
 
 // 1, 2 is ✋ ✋-left
-// 3, 4 is 🤟 🤟-left
-// 5, 6 is 👈 👈-left
+// 3, 4 is 👈 👈-left
+// 5, 6 is 🤟 🤟-left
 // 7 is 👌
 
 // Hello World!
@@ -19,12 +19,12 @@ const TOKEN_OUTPUT = '7';
 
 export function interpreter(signs: string): string | null {
     const memory = new Array(MEMORY_SIZE).fill(0);
-    let signPointer = 0;
-    let memoryPointer = 0;
-    let addressStack = [];
+    let signPointer: number = 0;
+    let memoryPointer: number = 0;
+    let addressStack: number[] = [];
 
-    let output = "";
-    let terminate = false;
+    let output: string = "";
+    let terminate: boolean = false;
 
     while (!terminate) {
         switch (signs[signPointer]) {
@@ -68,7 +68,7 @@ export function interpreter(signs: string): string | null {
                 }
                 break;
             case TOKEN_LOOP_END:
-                signPointer = addressStack.pop() - 1;
+                signPointer = (addressStack.pop() ?? 0) - 1;
                 break;
             case TOKEN_OUTPUT:
                 output += String.fromCharCode(memory[memoryPointer]);
