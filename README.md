@@ -11,7 +11,8 @@ todo
 todo
 
 ## Development
-todo
+### Training your own GestureScript ML Model
+You can find all the details on how to use [Tenserflow](https://github.com/justindhillon/GestureScript/tree/main/training-script) to train your own sign language detection model in [```training-scripts```](https://github.com/justindhillon/GestureScript/tree/main/training-script).
 
 ## License
 The code is released under the GNU Affero General Public License 3.0. See [```LICENSE```](https://github.com/justindhillon/gsl/edit/main/LICENSE).
