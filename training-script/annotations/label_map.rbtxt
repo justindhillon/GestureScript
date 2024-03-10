@@ -1,0 +1,28 @@
+item { 
+	name:'✋'
+	id:1
+}
+item { 
+	name:'✋-left'
+	id:2
+}
+item { 
+	name:'👈'
+	id:3
+}
+item { 
+	name:'👈-left'
+	id:4
+}
+item { 
+	name:'🤟'
+	id:5
+}
+item { 
+	name:'🤟-left'
+	id:6
+}
+item { 
+	name:'👌'
+	id:7
+}

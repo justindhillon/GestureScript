@@ -3,7 +3,7 @@ import os
 import time
 import uuid
 
-IMAGES_PATH = './training-images/collected-images'
+IMAGES_PATH = 'training-images/collected-images'
 labels = ['✋', '✋-left', '🤟', '🤟-left', '👈', '👈-left', '👌']
 number_imgs = 15
 
