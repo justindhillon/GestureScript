@@ -6,7 +6,7 @@ This directory has everything you need to make the AI model.
 
 Run this command to install dependencies
 
-    pip3 install pyqt5 lxml
+    pip install -r requirements.txt
 
 ## Getting Images
 
@@ -19,6 +19,8 @@ The files are in ```training-images/collected-images```
 ## Seting Up labelImg
 
 ```bash
+git submodule update
+
 cd labelImg
 
 # Install pyqt5 on Ubuntu
