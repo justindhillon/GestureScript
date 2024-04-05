@@ -1,9 +1,2 @@
-# Training images
-training-images/collected-images/*.jpg
-training-images/collected-images/*.xml
-
-# TFrecords
-annotations/*.record
-
-# Python environment
 env
+collected-images/*.jpg
